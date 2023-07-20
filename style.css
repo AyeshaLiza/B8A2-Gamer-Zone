@@ -64,6 +64,7 @@ text-align: center;
 
 /* banner section start */
 .banner-container{
+ 
   width: 80%;
   height: 80vh;
   display: flex;
@@ -295,16 +296,53 @@ footer{
 /* footer section start */
 
 /* responsive section starts */
-
-@media screen and (max-width: 425px) {
-  .nav-container{
+@media screen and (max-width:425px) {
+  .nav-container {
     display: grid;
     grid-template-columns: 1fr;
-
-  }  
+    justify-content: center;
+    width: 80%;
+    padding: 100px 0;
+  
+  }
+  .logo{
+    width: 50%;
+   
+  }
   .nav-menu{
     display: grid;
+    grid-row: 2;
+    margin-top: 20px;
   }
-  
+  .nav-menu a{
+    text-align: center;
+  }
+  .nav-menu > button{
+    margin-top: 20px;
+  }
+  .banner-container{
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: center;
+   width: 80%;
+   margin: 250px 200px;
+  }
+  .banner-content{
+    width: 80%;
+  }
+  .banner-content > button{
+    margin-top: 20px;
+  }
+  .card-content{
+    margin: 70px auto;
+  }
+  .gameing-card{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px; */
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto
+  }
+
 }
-/* responsive section starts */
