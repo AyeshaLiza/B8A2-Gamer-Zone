@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+/* shared styles */
+.logo{
+  width: 50%;
+ display: flex;
+}
+.logo img{
+  width: 86px;
+  height: 40px;
+}
+.logo > p{
+ font-size: 45px;
+ color: black;
+ font-weight: 700;
+ line-height: normal;
+ padding: 0 20px;
+}
+.logo span{
+ color: #FF42A5;
+}
+/* header+ nav section start */
+.header-container{
+ width: 100%;
+ background-color: white;
+ height: 10vh;
+}
+.nav-container{
+ display: flex;
+ justify-content: space-around;
+ width: 80%;
+ margin: 30px auto;
+}
+
+.nav-menu{
+ display: flex;
+}
+.nav-menu a{
+ text-decoration: none;
+ color: #3c3c4F;
+text-align: center;
+ font-family: Work Sans;
+ font-size: 18px;
+ font-weight: 500;
+ padding: 20px ;
+}
+.nav-menu > button {
+  border-radius: 8px;
+  background-color: #E7E6E9;
+  border: none;
+ padding: 15px 20px;
+}
+
+/* header+ nav section end */
+
+/* banner section start */
+.banner-container{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.banner-content{
+  width: 50%;
+  margin: 0 auto;
+}
+.banner-content .title{
+  font-size: 48px;
+  color: #0B0223;
+  font-family: Work Sans;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.banner-content span{
+  color:  #F948B2;
+  font-size: 95px;
+  font-weight: 800;
+}
+.banner-content p{
+  color: #534C64;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 500;
+}
+
+.banner-content img{
+  /* padding-right: 10px; */
+
+}
+.banner-content button{
+  border: none;
+  font-family: Work Sans;
+  border-radius: 20px;
+  background-color: #F948B2;
+  padding: 13px 30px;
+  color: white;
+  font-weight: 600;
+  margin-top: 30px;
+  
+}
+.banner-content .go-rogue{
+  background-color: #4EC5F7;
+  margin-left: 15px;
+}
+.banner-img{
+  width: 50%;
+}
+.banner-img img{
+    width: 480px;
+    height: 500px;
+}
+/* banner section end */
+
+/* Card section start */
+
+ .card-container{
+  width: 100%;
+  height: 80vh;
+}
+.card-content > h2{
+  color: #0B0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.card-content span{
+  color: #de57a8 ;
+}
+
+.card > p{
+  color: #534C64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 24px;
+}
+
+.gameing-card{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0  auto;
+}
+
+.card{
+  width: 250px;
+  height: 400px;
+  margin:  0px;
+}
+
+.card > img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-content > p{
+  color: #534C64;
+ font-size: 18px;
+ text-align: center;
+ padding: 24px 0;
+}
+/* Card section end */
+
+/* play-game-online section start */
+.play-game-online{
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  align-items: center;
+  margin: 270px auto 150px auto;
+  
+}
+.play-game-online-img{
+  width: 50%;
+  height: 80vh;
+  flex-shrink: 0;
+}
+.play-game-online-img img{
+  width: 100%;
+  height: 100%;
+}
+.small-img{
+  width: 30vh;
+  height: 35vh;
+  position: relative;
+  bottom: 150px;
+  left: 400px;
+}
+.play-game-online-content{
+  padding-left: 70px;
+}
+.play-game-online-content > h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0B0223;
+}
+.play-game-online-content span{
+  color: #F948B2;
+}
+.play-game-online-content p{
+  color: #534C64;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 30px;
+
+}
+/*  play-game-online end*/
+
+/* game-varieties section start */
+.various-game-buttons{
+  width: 80%;
+  height: 20vw ;
+   margin: 0 auto;
+ /* padding: 10px 20px; */
+ background-color: #FFF9FC;
+}
+
+.game-btn{
+border: none;
+padding-right: 25px;
+background-color: white;
+border-radius: 50px; 
+font-size: 15px;
+font-weight: 600;
+margin: 5px;
+}
+
+
+.game-btn:hover{
+  color: hsl(0, 0%, 100%);
+  border: 1.5px solid rgb(240, 28, 13);
+  background-color: rgb(81, 15, 56);
+}
+/* game-varieties section start */
+
+/* footer section start */
+footer{
+  width: 100%;
+  height: 40vw;
+  background-color: #0B0223;
+  text-align: center;
+}
+.footer-inner{
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+.footer-inner > .logo{
+  padding-left: 180px;
+  padding-bottom: 40px;
+}
+.footer-inner > .logo >P{
+  color: white;
+}
+.ankor a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 30px 10px;
+}
+.social-icon{
+  margin: 30px 0;
+}
+.social-icon a{
+  padding: 10px;
+}
+.terms-conditions{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.terms-conditions li, p{
+  padding: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.60)
+}
+
+/* footer section start */
+
+/* responsive section starts */
+
+@media screen and (max-width: 425px) {
+  .nav-container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }  
+  .nav-menu{
+    display: grid;
+  }
+  
+}
+/* responsive section starts */
